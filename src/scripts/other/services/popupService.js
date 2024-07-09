@@ -70,7 +70,7 @@
                 }
                 message = "U hebt geen rechten om het thema " + url + " te raadplegen";
                 callback = function () { 
-                    var win = window.open('https://um.antwerpen.be/main.aspx', '_blank');
+                    var win = window.open('https://mijntoegang.antwerpen.be', '_blank');
                     win.focus();
                  };
                  var options = {};

@@ -101,7 +101,7 @@
                             }
                         } else {
                             var callback = function () { 
-                                var win = window.open('https://um.antwerpen.be/main.aspx', '_blank');
+                                var win = window.open('https://mijntoegang.antwerpen.be', '_blank');
                                 win.focus();
                              };
                              var options = {};
@@ -149,7 +149,7 @@
                             }
                         } else {
                             var callback = function () { 
-                                var win = window.open('https://um.antwerpen.be/main.aspx', '_blank');
+                                var win = window.open('https://mijntoegang.antwerpen.be', '_blank');
                                 win.focus();
                              };
                              var options = {};

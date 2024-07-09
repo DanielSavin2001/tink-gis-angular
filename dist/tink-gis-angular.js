@@ -2164,7 +2164,7 @@ var Scales = [250000, 200000, 150000, 100000, 50000, 25000, 20000, 15000, 12500,
                     }
                 } else {
                     var callback = function callback() {
-                        var win = window.open('https://um.antwerpen.be/main.aspx', '_blank');
+                        var win = window.open('https://mijntoegang.antwerpen.be', '_blank');
                         win.focus();
                     };
                     var options = {};
@@ -3671,7 +3671,7 @@ var esri2geo = {};
                             }
                         } else {
                             var callback = function callback() {
-                                var win = window.open('https://um.antwerpen.be/main.aspx', '_blank');
+                                var win = window.open('https://mijntoegang.antwerpen.be', '_blank');
                                 win.focus();
                             };
                             var options = {};
@@ -3718,7 +3718,7 @@ var esri2geo = {};
                         }
                     } else {
                         var callback = function callback() {
-                            var win = window.open('https://um.antwerpen.be/main.aspx', '_blank');
+                            var win = window.open('https://mijntoegang.antwerpen.be', '_blank');
                             win.focus();
                         };
                         var options = {};
@@ -6117,7 +6117,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
                 if (url.includes("service")) {}
                 message = "U hebt geen rechten om het thema " + url + " te raadplegen";
                 callback = function callback() {
-                    var win = window.open('https://um.antwerpen.be/main.aspx', '_blank');
+                    var win = window.open('https://mijntoegang.antwerpen.be', '_blank');
                     win.focus();
                 };
                 var options = {};
